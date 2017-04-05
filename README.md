@@ -114,6 +114,15 @@ Jenkins is one of the popular CI tool available.
 | Easy to use | Flexible      |
 
 
+## Our Views
+
+If we are coding an open source project on github and want easy to configure CI tool go for Travis CI. The another cool thing is badge we can put on a website or in our readme of github to show whether the build is passing or not. 
+Travis CI for non-open source projects is very expensive  starts at $129 per month
+Jenkins would be better option if you are already familiar with it. 
+
+Preference for projects :
+		in-house → Jenkins
+		Open source and Github.com → Travis-CI
 
 
 
