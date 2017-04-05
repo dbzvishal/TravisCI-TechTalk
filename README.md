@@ -121,6 +121,7 @@ Travis CI for non-open source projects is very expensive  starts at $129 per 
 Jenkins would be better option if you are already familiar with it. 
 
 Preference for projects :
+		
 		in-house → Jenkins
 		
 		Open source and Github.com → Travis-CI
