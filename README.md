@@ -122,6 +122,7 @@ Jenkins would be better option if you are already familiar with it.
 
 Preference for projects :
 		in-house → Jenkins
+		
 		Open source and Github.com → Travis-CI
 
 
