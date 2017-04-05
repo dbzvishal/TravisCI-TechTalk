@@ -124,6 +124,18 @@ Preference for projects :
 		in-house → Jenkins
 		
 		Open source and Github.com → Travis-CI
+		
+		
+		
+## References
+
+http://www.uqasar.eu/review-saas-continuous-integration-tools-series/
+Continuous Integration (Jenkins/Hudson) - SlideShare
+http://www.slideshare.net/bsiggelkow/travis-ci
+http://www.slideshare.net/gabevanslv/travis-ci-23997525?related=1
+https://docs.travis-ci.com/user/getting-started/
+
+
 
 
 
