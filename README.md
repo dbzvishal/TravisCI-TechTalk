@@ -133,16 +133,16 @@ Preference for projects :
 		Open source and Github.com → Travis-CI
 
 ### Setup instructions for the Demo
+ 
+These steps were followed in setting up the demo:
 
-1. Fork the `https://github.com/heroku/node-js-getting-started` repo
+1. `git clone https://github.com/heroku/node-js-getting-started`
 
-2. `git clone https://github.com/suniltheta/node-js-getting-started`
+2. `cd node-js-getting-started`
 
-3. `cd node-js-getting-started`
+3. `vi .travis.yml`
 
-4. `vi .travis.yml`
-
-5. Add this content there
+4. Add this content there
 ```
 language: node_js
 sudo: false
@@ -156,22 +156,22 @@ deploy:
  api_key: "HEROKU KEY"
  app: app-travis
 ```
-6. Add this to the github project's Readme 
+5. Add this to the github project's Readme 
 ` [![Build Status](https://travis-ci.org/suniltheta/node-js-getting-started.svg?branch=master)](https://travis-ci.org/suniltheta/node-js-getting-started)
 `
-7. Sign into your Travis CI account and sync your repos.
+6. Sign into your Travis CI account and sync your repos.
 
-8. Enable Travis CI integration for this project.
+7. Enable Travis CI integration for this project.
 
-9. `git add .`
+8. `git add .`
 
-10. `git commit -m "Commit Message"`
+9. `git commit -m "Commit Message"`
 
-11. `git push origin master`
+10. `git push origin master`
 
-12. Go to the github repo url and click on the badge that we added for the Travis CI build to see the build results.
+11. Go to the github repo url and click on the badge that we added for the Travis CI build to see the build results.
 
-13. You can also customize the build like Build branch updates, Limit concurrent jobs, Build pull request updates, Schedule CRON jobs, auto cancelling the jobs, set ENV varibales for the jobs etc.
+12. You can also customize the build like Build branch updates, Limit concurrent jobs, Build pull request updates, Schedule CRON jobs, auto cancelling the jobs, set ENV varibales for the jobs etc.
 		
 		
 ## References
