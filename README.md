@@ -62,7 +62,6 @@ For example the archicture for Travis CI can be given as
 - Open Source
 - Fully hosted 
 - Distributed
-- Open Source
 - Incredibly easy
 - No worries about back end
 - Save git repo maintainer's time
