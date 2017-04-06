@@ -12,7 +12,7 @@
 4. Pranav Firake; ppfirake@ncsu.edu
 
 
-### Screencast [link](https://www.youtube.com/watch?v=-GIrXRso49E)
+### Screencast [link](https://www.youtube.com/watch?v=zQOS7_oK0xU)
 
 This Tech Talk uses this [Node js project](https://github.com/heroku/node-js-getting-started) for demonstrating the working of Travis CI.
 
