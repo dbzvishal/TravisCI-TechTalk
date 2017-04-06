@@ -11,6 +11,9 @@
 3. Sohan Kunkerkar; sakunker@ncsu.edu
 4. Pranav Firake; ppfirake@ncsu.edu
 
+
+### Screencast [link]()
+
 ## Introduction
 
 ### What is CI 
@@ -37,7 +40,7 @@ In simple words, Travis CI is a hosted, distributed continuous integration servi
 - Whatever you can make it do
 
 
-### How does CI work (Tool in a clear, logical manner)
+### How does Travis CI work (Tool in a clear, logical manner)
 
 
 1. Sign in to Travis CI with your GitHub account, accepting the GitHub access permissions confirmation
@@ -119,6 +122,8 @@ Jenkins is one of the popular CI tool available.
 If we are coding an open source project on github and want easy to configure CI tool go for Travis CI. The another cool thing is badge we can put on a website or in our readme of github to show whether the build is passing or not. 
 Travis CI for non-open source projects is very expensive  starts at $129 per month
 Jenkins would be better option if you are already familiar with it. 
+
+Also, as we worked on the demo for this Tech Talk, we felt that interating Travis CI as Continuous Integration into our porject was much more seamless compared to our prior experiences with one other CI tool Jenkins CI, which was more complex in its functioning and setup. Also, the fact that Travis CI is cloud based increases its accessibility.
 
 Preference for projects :
 		
