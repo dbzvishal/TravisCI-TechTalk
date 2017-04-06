@@ -131,7 +131,47 @@ Preference for projects :
 		in-house → Jenkins
 		
 		Open source and Github.com → Travis-CI
-		
+
+### Setup instructions for the Demo
+
+1. Fork the `https://github.com/heroku/node-js-getting-started` repo
+
+2. `git clone https://github.com/suniltheta/node-js-getting-started`
+
+3. `cd node-js-getting-started`
+
+4. `vi .travis.yml`
+
+5. Add this content there
+```
+language: node_js
+sudo: false
+node_js:
+ - "stable"
+install:
+ - npm install
+
+deploy:
+ provider: heroku
+ api_key: "HEROKU KEY"
+ app: app-travis
+```
+6. Add this to the github project's Readme 
+` [![Build Status](https://travis-ci.org/suniltheta/node-js-getting-started.svg?branch=master)](https://travis-ci.org/suniltheta/node-js-getting-started)
+`
+7. Sign into your Travis CI account and sync your repos.
+
+8. Enable Travis CI integration for this project.
+
+9. `git add .`
+
+10. `git commit -m "Commit Message"`
+
+11. `git push origin master`
+
+12. Go to the github repo url and click on the badge that we added for the Travis CI build to see the build results.
+
+13. You can also customize the build like Build branch updates, Limit concurrent jobs, Build pull request updates, Schedule CRON jobs, auto cancelling the jobs, set ENV varibales for the jobs etc.
 		
 		
 ## References
