@@ -12,11 +12,20 @@
 4. Pranav Firake; ppfirake@ncsu.edu
 
 
+
 ### Screencast [link](https://www.youtube.com/watch?v=zQOS7_oK0xU)
 
 This Tech Talk uses this [Node js project](https://github.com/heroku/node-js-getting-started) for demonstrating the working of Travis CI.
 
 ## Introduction
+
+## Inspiration
+
+	Untested code is broken code - Martin Aspelli
+	Code without test is broken by design - Jacob Kaplan Moss
+	So test often, integrate often.
+	
+	
 
 ### What is CI 
 
@@ -53,8 +62,58 @@ In simple words, Travis CI is a hosted, distributed continuous integration servi
 6. Check the build status page to see if your build passes or fails.
 
 
+
 For example the archicture for Travis CI can be given as 
 ![Travis CI Architecture](https://github.com/suniltheta/TravisCI-TechTalk/blob/master/img/TravisArch.jpg)
+
+
+
+### Setup instructions for the Demo
+ 
+These steps were followed in setting up the demo:
+
+1. `git clone https://github.com/heroku/node-js-getting-started`
+
+2. `cd node-js-getting-started`
+
+3. `vi .travis.yml`
+
+4. Add this content there
+```
+language: node_js
+sudo: false
+node_js:
+ - "stable"
+install:
+ - npm install
+
+deploy:
+ provider: heroku
+ api_key: "HEROKU KEY"
+ app: app-travis
+```
+5. Add this to the github project's Readme 
+` [![Build Status](https://travis-ci.org/suniltheta/node-js-getting-started.svg?branch=master)](https://travis-ci.org/suniltheta/node-js-getting-started)
+`
+6. Sign into your Travis CI account and sync your repos.
+
+7. Enable Travis CI integration for this project.
+
+8. `git add .`
+
+9. `git commit -m "Commit Message"`
+
+10. `git push origin master`
+
+11. Go to the github repo url and click on the badge that we added for the Travis CI build to see the build results.
+
+12. You can also customize the build like Build branch updates, Limit concurrent jobs, Build pull request updates, Schedule CRON jobs, auto cancelling the jobs, set ENV variables for the jobs etc.
+
+
+## Basic setup instructions for building apps with Travis
+
+Best resource for setip is https://docs.travis-ci.com/user/customizing-the-build
+
 
 
 ## Advantages and Features of Travis CI
@@ -132,46 +191,7 @@ Preference for projects :
 		
 		Open source and Github.com → Travis-CI
 
-### Setup instructions for the Demo
- 
-These steps were followed in setting up the demo:
 
-1. `git clone https://github.com/heroku/node-js-getting-started`
-
-2. `cd node-js-getting-started`
-
-3. `vi .travis.yml`
-
-4. Add this content there
-```
-language: node_js
-sudo: false
-node_js:
- - "stable"
-install:
- - npm install
-
-deploy:
- provider: heroku
- api_key: "HEROKU KEY"
- app: app-travis
-```
-5. Add this to the github project's Readme 
-` [![Build Status](https://travis-ci.org/suniltheta/node-js-getting-started.svg?branch=master)](https://travis-ci.org/suniltheta/node-js-getting-started)
-`
-6. Sign into your Travis CI account and sync your repos.
-
-7. Enable Travis CI integration for this project.
-
-8. `git add .`
-
-9. `git commit -m "Commit Message"`
-
-10. `git push origin master`
-
-11. Go to the github repo url and click on the badge that we added for the Travis CI build to see the build results.
-
-12. You can also customize the build like Build branch updates, Limit concurrent jobs, Build pull request updates, Schedule CRON jobs, auto cancelling the jobs, set ENV variables for the jobs etc.
 		
 		
 ## References
