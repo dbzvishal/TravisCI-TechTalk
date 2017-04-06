@@ -12,7 +12,9 @@
 4. Pranav Firake; ppfirake@ncsu.edu
 
 
-### Screencast [link]()
+### Screencast [link](https://www.youtube.com/watch?v=-GIrXRso49E)
+
+This Tech Talk uses this [Node js project](https://github.com/suniltheta/node-js-getting-started) for demonstrating the working of Travis CI.
 
 ## Introduction
 
@@ -123,7 +125,7 @@ If we are coding an open source project on github and want easy to configure CI 
 Travis CI for non-open source projects is very expensive  starts at $129 per month
 Jenkins would be better option if you are already familiar with it. 
 
-Also, as we worked on the demo for this Tech Talk, we felt that interating Travis CI as Continuous Integration into our porject was much more seamless compared to our prior experiences with one other CI tool Jenkins CI, which was more complex in its functioning and setup. Also, the fact that Travis CI is cloud based increases its accessibility.
+Also, as we worked on the demo for this Tech Talk, we felt that integrating Travis CI as Continuous Integration into our project was much more seamless compared to our prior experiences with one other CI tool Jenkins CI, which was more complex in its functioning and setup. Also, the fact that Travis CI is cloud based increases its accessibility.
 
 Preference for projects :
 		
