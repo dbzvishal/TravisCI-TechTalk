@@ -14,7 +14,7 @@
 
 ### Screencast [link](https://www.youtube.com/watch?v=-GIrXRso49E)
 
-This Tech Talk uses this [Node js project](https://github.com/suniltheta/node-js-getting-started) for demonstrating the working of Travis CI.
+This Tech Talk uses this [Node js project](https://github.com/heroku/node-js-getting-started) for demonstrating the working of Travis CI.
 
 ## Introduction
 
