@@ -171,7 +171,7 @@ deploy:
 
 11. Go to the github repo url and click on the badge that we added for the Travis CI build to see the build results.
 
-12. You can also customize the build like Build branch updates, Limit concurrent jobs, Build pull request updates, Schedule CRON jobs, auto cancelling the jobs, set ENV varibales for the jobs etc.
+12. You can also customize the build like Build branch updates, Limit concurrent jobs, Build pull request updates, Schedule CRON jobs, auto cancelling the jobs, set ENV variables for the jobs etc.
 		
 		
 ## References
