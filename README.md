@@ -6,11 +6,10 @@
 ### Team members
 
 
-1. Ajay Chandra Pendyala; apendya@ncsu.edu
-2. Sunil Narasimhamurthy; snarasi5@ncsu.edu
-3. Sohan Kunkerkar; sakunker@ncsu.edu
-4. Pranav Firake; ppfirake@ncsu.edu
-
+1.  Pranav Firake; ppfirake@ncsu.edu
+2. Ajay Chandra Pendyala; apendya@ncsu.edu
+3. Sunil Narasimhamurthy; snarasi5@ncsu.edu
+4. Sohan Kunkerkar; sakunker@ncsu.edu
 
 
 ### Screencast [link](https://www.youtube.com/watch?v=zQOS7_oK0xU)
